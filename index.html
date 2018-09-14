@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" type="text/css" href="main.css">
+    <script src="main.js" defer></script>
+    <title>Pixel Art Maker</title>
+</head>
+
+<body>
+    <h1> Pixel Art Maker</h1>
+    <div class="container"> 
+    <form id="createGrid">
+        <label>Rows</label>
+        <input class="rows" name="height" min="1" max="24" type="number" value="5">
+        <label>Columns</label>
+        <input class="columns" name="width" min="1" max="24" type="number" value="5">
+        <input class="submit" type="submit" value="submit">
+        <input class="clear" type="submit" value="clear" onClick="window.location.reload()">
+        <input id="paint" type="color">
+    </form>
+    <div id="canvas">
+    </div>
+    </div>
+</body>
+</html> 

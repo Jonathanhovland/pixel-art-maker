@@ -33,6 +33,6 @@ grid.onsubmit = function(event){
 
 
 function fillCell() {
-this.setAttribute("style", `background-color: ${paint.value}`)
+    this.setAttribute("style", `background-color: ${paint.value}`)
 }
 

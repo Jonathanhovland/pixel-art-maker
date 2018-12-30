@@ -1,5 +1,5 @@
 # Pixel Art Maker
 
-Created an application using JavaScript, HTML, CSS, and Flexbox.
+JavaScript / HTML / CSS / Flexbox
 
-Inside of this application you can pick what size template you want to draw on and create whatever you'd like!
+Inside of this application you can pick what size template you want to create with and paint whatever you want to.
